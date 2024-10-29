@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
+import BrochureViewer from './components/BrochureViewer';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <nav className="navbar">
+        <a href="#home">Home</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#location">Location</a>
+      </nav>
+      <header className="header">
+        <h1>Ananta Spa & Resort</h1>
+        <p>Scroll through our brochure to discover luxury and relaxation.</p>
       </header>
+      <BrochureViewer />
     </div>
   );
 }
