@@ -11,7 +11,7 @@ function App() {
         <a href="#location">Location</a>
       </nav>
       <header className="header">
-        <h1>Ananta Spa & Resort</h1>
+        <h1>Ananta Spa & Resort Karjat</h1>
         <p>Scroll through our brochure to discover luxury and relaxation.</p>
       </header>
       <BrochureViewer />
